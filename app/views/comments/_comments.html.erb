@@ -1,0 +1,5 @@
+<!-- app/views/comments/_comment.html.erb -->
+<p>
+  <%= comment.content %>
+  <%= link_to 'Delete', [comment.article, comment], method: :delete, data: { confirm: 'Are you sure?' } %>
+</p>
